@@ -29,7 +29,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='Pikmin2-Patcher',
+    name='MarioPowerTennis-Patcher',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -48,11 +48,11 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='Pikmin2-Patcher',
+    name='MarioPowerTennis-Patcher',
 )
 app = BUNDLE(
     coll,
-    name='Pikmin2-Patcher.app',
+    name='MarioPowerTennis-Patcher.app',
     icon=ICON,
-    bundle_identifier='net.quatric.pikmin2-patcher',
+    bundle_identifier='net.quatric.mariopowertennis-patcher',
 )

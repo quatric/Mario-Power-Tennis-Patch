@@ -5,5 +5,5 @@
 set -eu
 cd "${0:a:h}"
 command -v pyinstaller >/dev/null || { echo "pyinstaller not found (pip install pyinstaller tkinterdnd2)"; exit 1; }
-pyinstaller --noconfirm Pikmin2-Patcher.spec
-echo "built: tools/dist/Pikmin2-Patcher"
+pyinstaller --noconfirm MarioPowerTennis-Patcher.spec
+echo "built: tools/dist/MarioPowerTennis-Patcher"
