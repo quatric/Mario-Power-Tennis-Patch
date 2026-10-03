@@ -1,0 +1,20 @@
+# Never commit game binaries or anything derived from them.
+*.dol
+*.app
+*.wbfs
+*.iso
+*.wad
+*.raw
+*.bak
+*.partial
+extracted_*/
+dumps/
+images/
+build/
+work/
+/tools/dist/
+dist/
+
+__pycache__/
+*.pyc
+.DS_Store
